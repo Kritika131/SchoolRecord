@@ -46,7 +46,7 @@ const ShowSchool = () => {
             </tr>
             {
               schoolDetailsData?.map((data,id)=>(
-                <tr className=' text-xl bg-slate-300 text-center  '>
+                <tr key={id} className=' text-xl bg-slate-300 text-center  '>
                   <td>{data.school_name}</td>
                   <td>{data.address}</td>
                   <td>{data.city}</td>

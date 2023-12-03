@@ -28,7 +28,7 @@ const DashboardLayout = ({ children }) => {
             href="/dashboard/addschool"
             className={`${
               pathname === "/dashboard/addschool" ? "text-orange-600 " : ""
-            }`}
+            }`} 
           >
             AddSchool
           </Link>
@@ -53,7 +53,7 @@ const DashboardLayout = ({ children }) => {
                 href="/dashboard/addschool"
                 className={`${
                   pathname === "/dashboard/addschool" ? "text-orange-600 " : ""
-                }`}
+                }`} onClick={()=>setOpenMenu(!openMenu)}
               >
                 AddSchool
               </Link>
@@ -63,7 +63,7 @@ const DashboardLayout = ({ children }) => {
                 href="/dashboard/showschool"
                 className={`${
                   pathname === "/dashboard/showschool" ? "text-orange-600 " : ""
-                }`}
+                }`} onClick={()=>setOpenMenu(!openMenu)}
               >
                 ShowSchool
               </Link>
