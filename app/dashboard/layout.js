@@ -21,7 +21,7 @@ const DashboardLayout = ({ children }) => {
       </div>
       {/* navbar for screen  */}
       <div className="nav_screen   bg-slate-950 py-4 px-16 flex border-b-2 border-white  items-center justify-between text-white">
-        <nav className=" bg-slate-950   font-bold text-2xl  ">Dashboard</nav>
+        <nav className=" bg-slate-950   font-bold text-2xl  "> <Link href={"http://localhost:3000/dashboard"}>Dashboard</Link></nav>
                
         <div className="links flex gap-4 text-lg">
           <Link
